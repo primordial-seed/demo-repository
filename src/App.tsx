@@ -3,6 +3,7 @@ import reactLogo from "./assets/react.svg";
 import viteLogo from "./assets/vite.svg";
 import heroImg from "./assets/hero.png";
 import "./App.css";
+import { DUMMY_CONSTANT } from "./constants";
 
 function App() {
   const [count, setCount] = useState<number>(0);
@@ -118,5 +119,7 @@ function App() {
     </>
   );
 }
+
+console.log(DUMMY_CONSTANT);
 
 export default App;
